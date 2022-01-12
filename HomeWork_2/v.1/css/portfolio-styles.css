@@ -1,0 +1,139 @@
+/*--->Header<---*/
+
+.header-link-active {
+    color: #347cdb;
+    margin: 0; /* Отменяем отступы между ссылками */
+    list-style: none; /* Отменяем List ссылками */
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+.header-link {
+    color: #757575;
+    margin: 0;
+    list-style: none;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+.header-contact-link-mail {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.header-contact-link-mail:hover {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.header-contact-link-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+
+/*--->Body<---*/
+body {
+    font-family: "Roboto", "Raleway";
+    font-family: "Raleway", "Roboto";
+}
+
+/*Disable list for "ul"*/
+ul {
+    list-style: none;
+}
+
+/*Project*/
+.projects-text-h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    margin: 0;
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.projects-text-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+
+
+
+/*--->footer<---*/
+
+
+.footer{
+    position: center;
+    background-color:#212121;
+}
+
+.footer-logo{x
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 2157px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.footer-text-main{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+    }
+
+.footer-text{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+

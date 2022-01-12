@@ -1,0 +1,60 @@
+/*Черный основной #212121*/
+/*Голубой #2196F3*/
+/*Черный #000000*/
+/*Серый альтернативный #757575*/
+/*Серый светлый #ECECEC*/
+/*Белый #FFFFFF*/
+/*Акцент #18A0FB*/
+
+/*Убираем точки в ul*/
+ul {
+    list-style: none;
+}
+
+/*root*/
+    --primary-text-color: #212121;
+    --title-text: #000000;
+    --accent-color: #757575;
+    --primary-bg-color: ##2196F3;
+
+/*body/page*/
+body{
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+/**/
+.button{
+    color:var(--primary-text-color);
+    background-color: var:(--primary-bg-color);
+}
+
+/*header-nav*/
+
+.header-nav .link{
+    color: #green;
+}
+
+.header-nav .link:hover{
+    color:#212121;
+}
+
+.header-nav .link:focus{
+    color:  #red;
+}
+
+
+.section-title{
+    color: #000000;
+}
+
+.section-title :hover{
+    color: #757575;
+}
+.header-nav-link {
+    color: green;
+}
+
+.header-nav-link :focus {
+    color: red;
+}
